@@ -1,0 +1,20 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+use IEEE.NUMERIC_STD.ALL;
+
+entity johnpaul_chouery_barrel_shifter_behavioral is
+	Port (X : in std_logic_vector (3 downto 0);
+			sel : in std_logic_vector (1 downto 0);
+			Y : out std_logic_vector (3 downto 0));
+end johnpaul_chouery_barrel_shifter_behavioral;
+
+ARCHITECTURE Behave OF johnpaul_chouery_barrel_shifter_behavioral IS
+	COMPONENT johnpaul_chouery_MUX_behavioral
+	PORT ( s, x1, x2: IN STD_LOGIC;
+			f : OUT STD_LOGIC);
+	END COMPONENT;
+	
+BEGIN
+
+	WITH sel SELECT
+		

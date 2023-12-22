@@ -1,0 +1,27 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+use IEEE.NUMERIC_STD.ALL;
+
+entity johnpaul_chouery_barrel_shifter_structural is
+	Port (X : instd_logic_vector (3 downto 0);
+			sel : instd_logic_vector (1 downto 0);
+			Y : outstd_logic_vector (3 downto 0));
+end johnpaul_chouery_barrel_shifter_structural;
+
+ARCHITECTURE Structure OF johnpaul_chouery_barrel_shifter_structural IS
+	COMPONENT johnpaul_chouery_MUX_structural
+	PORT ( s, x1, x2: IN STD_LOGIC;
+			f : OUT STD_LOGIC);
+	END COMPONENT;
+
+BEGIN
+	M1: johnpaul_chouery_MUX_structural PORT MAP (x1 => X[0], x2 => X[2], s => sel[1], f => temp1);
+	M2: johnpaul_chouery_MUX_structural PORT MAP (x1 => X[1], x2 => X[3], s => sel[1], f => temp2);
+	M3: johnpaul_chouery_MUX_structural PORT MAP (x1 => X[2], x2 => X[0], s => sel[1], f => temp3);
+	M4: johnpaul_chouery_MUX_structural PORT MAP (x1 => X[3], x2 => X[1], s => sel[1], f => temp4);
+	
+	M5: johnpaul_chouery_MUX_structural PORT MAP (x1 => temp1, x2 => temp4, s => sel[0], f => Y[0]);
+	M6: johnpaul_chouery_MUX_structural PORT MAP (x1 => temp2, x2 => temp1, s => sel[0], f => Y[1]);
+	M7: johnpaul_chouery_MUX_structural PORT MAP (x1 => temp3, x2 => temp2, s => sel[0], f => Y[2]);
+	M8: johnpaul_chouery_MUX_structural PORT MAP (x1 => temp4, x2 => temp3, s => sel[0], f => Y[3]);
+END Structure;

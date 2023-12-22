@@ -1,0 +1,69 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1100mV 85C Model Setup 'B[0]'
+Slack : -3.820
+TNS   : -14.450
+
+Type  : Slow 1100mV 85C Model Setup 'n/a'
+Slack : -1.745
+TNS   : -1.983
+
+Type  : Slow 1100mV 85C Model Hold 'B[0]'
+Slack : 1.073
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'B[0]'
+Slack : 0.285
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Setup 'B[0]'
+Slack : -3.677
+TNS   : -14.039
+
+Type  : Slow 1100mV 0C Model Setup 'n/a'
+Slack : -1.352
+TNS   : -1.352
+
+Type  : Slow 1100mV 0C Model Hold 'B[0]'
+Slack : 0.849
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'B[0]'
+Slack : 0.260
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Setup 'B[0]'
+Slack : -2.875
+TNS   : -10.426
+
+Type  : Fast 1100mV 85C Model Setup 'n/a'
+Slack : 2.436
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'B[0]'
+Slack : 0.871
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'B[0]'
+Slack : 0.021
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Setup 'B[0]'
+Slack : -2.546
+TNS   : -9.355
+
+Type  : Fast 1100mV 0C Model Setup 'n/a'
+Slack : 2.945
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'B[0]'
+Slack : 0.682
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'B[0]'
+Slack : 0.018
+TNS   : 0.000
+
+------------------------------------------------------------

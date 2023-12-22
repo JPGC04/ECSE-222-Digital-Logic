@@ -1,0 +1,13 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+use IEEE.NUMERIC_STD.ALL;
+
+entity johnpaul_chouery_sequence_detector is
+Port (seq : in std_logic;
+		enable : in std_logic;
+		reset : in std_logic;
+		clk : in std_logic;
+		cnt_1 : out std_logic_vector(2 downto 0) ; -- counts the occurrence of the pattern "1011".
+		cnt_2 : out std_logic_vector(2 downto 0) ); -- counts the occurrence of the pattern "0010".
+end johnpaul_chouery_sequence_detector;
+

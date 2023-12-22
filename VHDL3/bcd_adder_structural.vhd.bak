@@ -1,0 +1,42 @@
+library IEEE;
+use IEEE.STD_LOGIC_11164.ALL;
+use IEEE.NUMERIC_STD.ALL;
+
+entity bcd_adder_structural is
+port (A: in std_logic_vector(3 downto 0);
+		B: in std_logic_vector(3 downto 0);
+		S: out std_logic_vector(3 downto 0);
+		C: out std_logic
+		);
+end bcd_adder_structural ;
+
+architecture struct of bcd_adder_structural is
+	component rca_behavioral
+	port (
+	A: in std_logic_vector(3 downto 0);
+	B: in std_logic_vector(3 downto 0);
+	S: out std_logic_vector(4 downto 0)
+	);
+	end component;
+	
+	COMPONENT half_adder
+	PORT (
+		a : IN STD_LOGIC;
+		b : IN STD_LOGIC;
+		c : OUT STD_LOGIC;
+		s : OUT STD_LOGIC
+		);
+	END COMPONENT;
+	
+	COMPONENT full_adder
+	port (
+		a: in std_logic;
+		b: in std_logic;
+		c_in : in std_logic;
+		s: out std_logic;
+		c_out : out std_logic
+		);
+	end COMPONENT;
+	
+begin
+	RCA4: rca_behavioral port map (A, B, C & S);

@@ -1,0 +1,221 @@
+m255
+K3
+13
+cModel Technology
+dC:\altera\13.0sp1
+Ejohnpaul_chouery_comp
+Z0 w1674597761
+Z1 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z2 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z3 dP:\ECSE 222\New\VHDL2\simulation\modelsim
+Z4 8P:/ECSE 222/New/VHDL2/johnpaul_chouery_comp.vhd
+Z5 FP:/ECSE 222/New/VHDL2/johnpaul_chouery_comp.vhd
+l0
+L25
+VlEePBF=25ce74OI;^:[8[0
+Z6 OV;C;10.1d;51
+32
+Z7 !s108 1674667634.085000
+Z8 !s90 -reportprogress|300|-work|work|-2002|-explicit|P:/ECSE 222/New/VHDL2/johnpaul_chouery_comp.vhd|
+Z9 !s107 P:/ECSE 222/New/VHDL2/johnpaul_chouery_comp.vhd|
+Z10 o-work work -2002 -explicit -O0
+Z11 tExplicit 1
+!s100 <fGMPk:Ag_g<2j3?`S00a0
+!i10b 1
+Abdf_type
+R1
+R2
+DEx4 work 21 johnpaul_chouery_comp 0 22 lEePBF=25ce74OI;^:[8[0
+l42
+L34
+Vc0h;iK@z[8ET1C:1[Khe<1
+R6
+32
+R7
+R8
+R9
+R10
+R11
+!s100 k2I7O4oCZ[KmSEYBAN26P1
+!i10b 1
+Ejohnpaul_chouery_comp_vhd_tst
+Z12 w1674669776
+Z13 DPx4 ieee 11 numeric_std 0 22 O3PF8EB`?j9=z7KT`fn941
+R1
+R2
+R3
+Z14 8P:/ECSE 222/New/VHDL2/simulation/modelsim/johnpaul_chouery_comp.vht
+Z15 FP:/ECSE 222/New/VHDL2/simulation/modelsim/johnpaul_chouery_comp.vht
+l0
+L32
+VgKWnR6hOWH>KFJ7NFkeXg2
+R6
+32
+Z16 !s108 1674669783.182000
+Z17 !s90 -reportprogress|300|-work|work|-2002|-explicit|P:/ECSE 222/New/VHDL2/simulation/modelsim/johnpaul_chouery_comp.vht|
+Z18 !s107 P:/ECSE 222/New/VHDL2/simulation/modelsim/johnpaul_chouery_comp.vht|
+R10
+R11
+!s100 S7d:aS61C6ngl@hzYmnig1
+!i10b 1
+Ajohnpaul_chouery_comp_arch
+R13
+R1
+R2
+DEx4 work 29 johnpaul_chouery_comp_vhd_tst 0 22 gKWnR6hOWH>KFJ7NFkeXg2
+l47
+L34
+Vi`boR;nR48n0oeB3ebCnK3
+R6
+32
+R16
+R17
+R18
+R10
+R11
+!s100 L=h@<ad`hV3W;k;YM3D3?2
+!i10b 1
+Ejohnpaul_chouery_mux_behavioral
+Z19 w1674763818
+R13
+R1
+R2
+R3
+Z20 8P:/ECSE 222/New/VHDL2/johnpaul_chouery_MUX_behavioral.vhd
+Z21 FP:/ECSE 222/New/VHDL2/johnpaul_chouery_MUX_behavioral.vhd
+l0
+L5
+VGWlH43;HoQLT=AX6a58m_0
+!s100 ]2L:@k>;4>kO82nA7[84n0
+R6
+32
+!i10b 1
+Z22 !s108 1674767383.747000
+Z23 !s90 -reportprogress|300|-work|work|-2002|-explicit|P:/ECSE 222/New/VHDL2/johnpaul_chouery_MUX_behavioral.vhd|
+Z24 !s107 P:/ECSE 222/New/VHDL2/johnpaul_chouery_MUX_behavioral.vhd|
+R10
+R11
+Abehave
+R13
+R1
+R2
+DEx4 work 31 johnpaul_chouery_mux_behavioral 0 22 GWlH43;HoQLT=AX6a58m_0
+l13
+L12
+V3dBN@kJ6?knN_ga:UlL[c0
+!s100 gUA`X9BihXf7N:EYBiR[l2
+R6
+32
+!i10b 1
+R22
+R23
+R24
+R10
+R11
+Ejohnpaul_chouery_mux_behavioral_vhd_tst
+Z25 w1674767178
+R1
+R2
+R3
+Z26 8P:/ECSE 222/New/VHDL2/simulation/modelsim/johnpaul_chouery_MUX_behavioral.vht
+Z27 FP:/ECSE 222/New/VHDL2/simulation/modelsim/johnpaul_chouery_MUX_behavioral.vht
+l0
+L31
+V@gQl:>U`WAeWDm1:6k;;G2
+R6
+32
+Z28 !s108 1674767383.252000
+Z29 !s90 -reportprogress|300|-work|work|-2002|-explicit|P:/ECSE 222/New/VHDL2/simulation/modelsim/johnpaul_chouery_MUX_behavioral.vht|
+Z30 !s107 P:/ECSE 222/New/VHDL2/simulation/modelsim/johnpaul_chouery_MUX_behavioral.vht|
+R10
+R11
+!s100 fm=>odHK:MX`]0dHJM_9>3
+!i10b 1
+Ajohnpaul_chouery_mux_behavioral_arch
+R1
+R2
+DEx4 work 39 johnpaul_chouery_mux_behavioral_vhd_tst 0 22 @gQl:>U`WAeWDm1:6k;;G2
+l48
+L33
+VWU`^gFaZcVlVzk3EW`aY]3
+R6
+32
+R28
+R29
+R30
+R10
+R11
+!s100 ffh3>m:gjCfK754ATBKnQ3
+!i10b 1
+Ejohnpaul_chouery_mux_structural
+Z31 w1674764316
+R13
+R1
+R2
+R3
+Z32 8P:/ECSE 222/New/VHDL2/johnpaul_chouery_MUX_structural.vhd
+Z33 FP:/ECSE 222/New/VHDL2/johnpaul_chouery_MUX_structural.vhd
+l0
+L5
+VBNKl]G>AO?dXhJS7hMKPF3
+R6
+32
+Z34 !s108 1674765377.495000
+Z35 !s90 -reportprogress|300|-work|work|-2002|-explicit|P:/ECSE 222/New/VHDL2/johnpaul_chouery_MUX_structural.vhd|
+Z36 !s107 P:/ECSE 222/New/VHDL2/johnpaul_chouery_MUX_structural.vhd|
+R10
+R11
+!s100 L[GI3VLTMYzVg<H?JF3:F0
+!i10b 1
+Astruct
+R13
+R1
+R2
+DEx4 work 31 johnpaul_chouery_mux_structural 0 22 BNKl]G>AO?dXhJS7hMKPF3
+l13
+L12
+VNGn4oYRXA49lHRS^]iTOA0
+R6
+32
+R34
+R35
+R36
+R10
+R11
+!s100 3YI<4R>m?NO[I_nz?joI83
+!i10b 1
+Ejohnpaul_chouery_mux_structural_vhd_tst
+Z37 w1674766737
+R1
+R2
+R3
+Z38 8P:/ECSE 222/New/VHDL2/simulation/modelsim/johnpaul_chouery_MUX_structural.vht
+Z39 FP:/ECSE 222/New/VHDL2/simulation/modelsim/johnpaul_chouery_MUX_structural.vht
+l0
+L31
+VScDmgVI`2b_nb2gPS:8:i3
+R6
+32
+Z40 !s108 1674766742.137000
+Z41 !s90 -reportprogress|300|-work|work|-2002|-explicit|P:/ECSE 222/New/VHDL2/simulation/modelsim/johnpaul_chouery_MUX_structural.vht|
+Z42 !s107 P:/ECSE 222/New/VHDL2/simulation/modelsim/johnpaul_chouery_MUX_structural.vht|
+R10
+R11
+!s100 YHI_Lf5;T_Da1D@>S:BKC3
+!i10b 1
+Ajohnpaul_chouery_mux_structural_arch
+R1
+R2
+DEx4 work 39 johnpaul_chouery_mux_structural_vhd_tst 0 22 ScDmgVI`2b_nb2gPS:8:i3
+l48
+L33
+VHeWd5iMQ4lT9e3jeY[BM90
+R6
+32
+R40
+R41
+R42
+R10
+R11
+!s100 =H?XOGD@2nQP9hYI[HPYE2
+!i10b 1
